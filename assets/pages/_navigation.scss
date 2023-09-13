@@ -1,0 +1,32 @@
+.header {
+  @include flex_center;
+  justify-content: center;
+  margin-top: 30px;
+  .container {
+    @include flex_center;
+    justify-content: space-around;
+    .logo {
+      font-size: 32px;
+      font-weight: 800;
+      color: $white_title;
+      text-transform: uppercase;
+
+      span {
+        color: $red_button;
+      }
+    }
+    .nav {
+      @include flex_center;
+      gap: 30px;
+      a {
+        color: $white_title;
+        font-size: 14px;
+        font-weight: 400;
+
+        &:hover {
+          color: $grey_title;
+        }
+      }
+    }
+  }
+}

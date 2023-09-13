@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Barlow+Condensed:wght@400;500;600&family=Barlow:wght@400;500;600&family=Inter:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: linear-gradient(237deg, #2c2d65 0.35%, #201f22 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+}
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.header .container .logo {
+  font-size: 32px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
+.header .container .logo span {
+  color: hsl(355, 73%, 64%);
+}
+.header .container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+.header .container .nav a {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-weight: 400;
+}
+.header .container .nav a:hover {
+  color: hsla(0, 0%, 100%, 0.5);
+}/*# sourceMappingURL=index.css.map */

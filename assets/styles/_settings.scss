@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Barlow+Condensed:wght@400;500;600&family=Barlow:wght@400;500;600&family=Inter:wght@400;800&display=swap");
+
+$background: linear-gradient(237deg, #2c2d65 0.35%, #201f22 100%);
+$white_title: hsla(0, 0%, 100%, 1);
+$white_text: hsla(0, 0%, 100%, 0.5);
+$red_button: hsla(355, 73%, 64%, 1);
+$grey_title: hsla(0, 0%, 100%, 0.5);
+$linear-gradient: hsla(239, 32%, 44%, 1), hsla(237, 41%, 28%, 1);
+$white_transparent: hsla(0, 0%, 85%, 1);
+$black: hsla(0, 0%, 0%, 1);
+$yellow: hsla(40, 79%, 56%, 1);
+$round: hsla(0, 0%, 100%, 0.1);
+$round_social: hsla(245, 90%, 65%, 1);
+
+@mixin flex_center {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: $background;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
