@@ -183,11 +183,13 @@ img {
   gap: 145px;
 }
 .section .container .left-side .img-container {
+  margin-bottom: 30px;
   width: 570px;
   height: 570px;
   background: url(../img/image\ triangle.png) center/cover;
 }
 .section .container .right-side {
+  position: relative;
   gap: 30px;
   height: 570px;
   display: -webkit-box;
@@ -245,4 +247,13 @@ img {
 }
 .section .container .started:hover {
   opacity: 0.7;
+}
+.section .container .round {
+  height: 210px;
+  width: 210px;
+  border: 3px solid hsla(0, 0%, 100%, 0.1);
+  border-radius: 200px;
+  position: absolute;
+  top: 106px;
+  left: 245px;
 }/*# sourceMappingURL=index.css.map */

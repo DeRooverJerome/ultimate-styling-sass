@@ -5,12 +5,14 @@
     gap: 145px;
     .left-side {
       .img-container {
+        margin-bottom: 30px;
         width: 570px;
         height: 570px;
         background: url(../img/image\ triangle.png) center/cover;
       }
     }
     .right-side {
+      position: relative;
       gap: 30px;
       height: 570px;
       display: flex;
@@ -65,6 +67,15 @@
       &:hover {
         opacity: 0.7;
       }
+    }
+    .round {
+      height: 210px;
+      width: 210px;
+      border: 3px solid $round;
+      border-radius: 200px;
+      position: absolute;
+      top: 106px;
+      left: 245px;
     }
   }
 }
