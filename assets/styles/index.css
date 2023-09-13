@@ -169,4 +169,80 @@ img {
   position: absolute;
   top: 51px;
   left: 288px;
+  z-index: -1;
+}
+
+.section .container {
+  margin: 175px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 145px;
+}
+.section .container .left-side .img-container {
+  width: 570px;
+  height: 570px;
+  background: url(../img/image\ triangle.png) center/cover;
+}
+.section .container .right-side {
+  gap: 30px;
+  height: 570px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section .container .right-side h3 {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 32px;
+}
+.section .container .right-side h4 {
+  font-family: "Barlow Condensed";
+  font-size: 56px;
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+  line-height: 64px;
+}
+.section .container .lorem-paragraph p {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.section .container .lorem-second-paragraph {
+  width: 100%;
+}
+.section .container .lorem-second-paragraph p {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 400;
+  line-height: 32px;
+}
+.section .container .started {
+  width: 152px;
+  height: 43px;
+  border-radius: 75px;
+  border: none;
+  background: hsl(355, 73%, 64%);
+  margin-right: 24px;
+}
+.section .container .started a {
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.63px;
+}
+.section .container .started:hover {
+  opacity: 0.7;
 }/*# sourceMappingURL=index.css.map */
