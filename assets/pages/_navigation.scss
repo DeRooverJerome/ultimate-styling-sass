@@ -4,7 +4,7 @@
   margin-top: 30px;
   .container {
     @include flex_center;
-    justify-content: space-around;
+    justify-content: space-between;
     .logo {
       font-size: 32px;
       font-weight: 800;
@@ -16,16 +16,25 @@
       }
     }
     .nav {
+      position: relative;
       @include flex_center;
       gap: 30px;
       a {
         color: $white_title;
         font-size: 14px;
         font-weight: 400;
-
         &:hover {
+          cursor: pointer;
           color: $grey_title;
         }
+      }
+
+      &::after {
+        content: url(../img/bg\ artistique.png);
+        position: absolute;
+        top: -206px;
+        left: -200px;
+        z-index: -1;
       }
     }
   }

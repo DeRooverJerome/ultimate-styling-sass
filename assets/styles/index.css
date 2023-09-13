@@ -16,8 +16,7 @@ body {
 }
 
 .container {
-  width: 1440px;
-  margin: 0 auto;
+  width: 1200px;
 }
 
 img {
@@ -44,8 +43,9 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .header .container .logo {
   font-size: 32px;
@@ -57,6 +57,7 @@ img {
   color: hsl(355, 73%, 64%);
 }
 .header .container .nav {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,5 +72,101 @@ img {
   font-weight: 400;
 }
 .header .container .nav a:hover {
+  cursor: pointer;
   color: hsla(0, 0%, 100%, 0.5);
+}
+.header .container .nav::after {
+  content: url(../img/bg\ artistique.png);
+  position: absolute;
+  top: -206px;
+  left: -200px;
+  z-index: -1;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main .container {
+  margin-top: 164px;
+}
+.main .container .title-container {
+  position: relative;
+}
+.main .container .title-container::after {
+  content: url(../img/bg\ round.png);
+  position: absolute;
+  top: -45px;
+  left: -43px;
+  z-index: -1;
+}
+.main .container .title-container h1 {
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 21px;
+}
+.main .container .title-container h2 {
+  color: hsl(40, 79%, 56%);
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+.main .container .title-container p {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.72px;
+}
+.main .container .title-container button {
+  height: 43px;
+  width: 152px;
+  border-radius: 75px;
+  border: none;
+  background: hsl(0, 0%, 100%);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.main .container .title-container button a {
+  color: hsl(0, 0%, 0%);
+  font-size: 14px;
+  letter-spacing: 0.63px;
+  text-transform: uppercase;
+}
+.main .container .title-container button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.main .container .title-container .started {
+  position: relative;
+  background: hsl(355, 73%, 64%);
+  margin-right: 24px;
+}
+.main .container .title-container .started a {
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.63px;
+}
+.main .container .title-container .text-container {
+  width: 35%;
+  margin-bottom: 21px;
+  position: relative;
+}
+.main .container .title-container .text-container .round {
+  width: 184px;
+  height: 181px;
+  content: url(../img/bg\ multiples\ rounds.png);
+  position: absolute;
+  top: 51px;
+  left: 288px;
 }/*# sourceMappingURL=index.css.map */
