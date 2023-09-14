@@ -1,0 +1,117 @@
+.section-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    .section-logo {
+      h3 {
+        color: $white_title;
+        font-size: 32px;
+        font-weight: 800;
+        span {
+          color: $red_button;
+        }
+      }
+    }
+    .section-menu {
+      .nav-ul {
+        h5 {
+          color: $white_text;
+          text-transform: uppercase;
+          font-size: 16px;
+          line-height: 32px;
+          letter-spacing: 3px;
+          margin-bottom: 20px;
+        }
+        li {
+          a {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+    .section-service {
+      .nav-ul-2 {
+        h5 {
+          color: $white_text;
+          font-size: 16px;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          line-height: 32px;
+          margin-bottom: 20px;
+        }
+        li {
+          a {
+            color: $white_title;
+            font-size: 16px;
+            line-height: 32px;
+          }
+        }
+      }
+    }
+    .section-social {
+      position: relative;
+      display: flex;
+      gap: 10px;
+      .facebook {
+        height: 48px;
+        width: 48px;
+        border-radius: 50px;
+        background: $round_social;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+      .twitter {
+        height: 48px;
+        width: 48px;
+        border-radius: 50px;
+        background: $round_social;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+      .instagram {
+        height: 48px;
+        width: 48px;
+        border-radius: 50px;
+        background: $round_social;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          img {
+            object-fit: cover;
+          }
+        }
+      }
+      &::after {
+        content: "";
+        height: 1px;
+        width: 1000px;
+        position: absolute;
+        background: $white_title;
+        opacity: 0.0797;
+        top: 240px;
+        right: 0;
+        transform: translateX(-50%, -50%);
+      }
+    }
+  }
+}
