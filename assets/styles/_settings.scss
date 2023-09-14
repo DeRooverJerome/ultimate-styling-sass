@@ -26,9 +26,8 @@ $round_social: hsla(245, 90%, 65%, 1);
 }
 
 body {
-  background: $background;
+  background: $background fixed;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   font-family: "Barlow", sans-serif;
 }
 

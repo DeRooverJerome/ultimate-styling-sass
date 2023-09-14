@@ -1,0 +1,64 @@
+@media screen and (max-width: 1024px) {
+  .header {
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .nav {
+        a {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  .main {
+    .container {
+      margin-left: 100px;
+      .title-container {
+        &::after {
+          display: none;
+        }
+      }
+    }
+  }
+  .section {
+    overflow: hidden;
+    .container {
+      gap: 10px;
+      .right-side {
+        margin-right: 200px;
+      }
+    }
+  }
+  .section-three {
+    .container {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    .container {
+      display: flex;
+      flex-direction: column;
+      .logo {
+        margin-left: -200px;
+        margin-bottom: 20px;
+      }
+      ul.nav {
+        width: 325px;
+      }
+    }
+  }
+}
+
+.main {
+  width: 150%;
+  .container {
+    .text-container {
+      width: 50%;
+    }
+  }
+}

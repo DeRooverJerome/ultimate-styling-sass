@@ -60,6 +60,7 @@
       display: flex;
       gap: 10px;
       .facebook {
+        cursor: pointer;
         height: 48px;
         width: 48px;
         border-radius: 50px;
@@ -71,9 +72,15 @@
           img {
             object-fit: cover;
           }
+        }
+
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.3s ease-in;
         }
       }
       .twitter {
+        cursor: pointer;
         height: 48px;
         width: 48px;
         border-radius: 50px;
@@ -86,8 +93,13 @@
             object-fit: cover;
           }
         }
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.3s ease-in;
+        }
       }
       .instagram {
+        cursor: pointer;
         height: 48px;
         width: 48px;
         border-radius: 50px;
@@ -99,6 +111,10 @@
           img {
             object-fit: cover;
           }
+        }
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.3s ease-in;
         }
       }
       &::after {
