@@ -1,0 +1,45 @@
+.section-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .container {
+    margin-top: -50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      color: $grey_title;
+      line-height: 32px;
+      font-size: 16px;
+      letter-spacing: 3px;
+      margin-bottom: 16px;
+    }
+
+    h3 {
+      color: $white_title;
+      font-family: "Barlow Condensed", sans-serif;
+      font-size: 56px;
+      font-weight: 300;
+      line-height: 64px;
+      margin-bottom: 16px;
+    }
+    .section-2-paragraph {
+      text-align: center;
+      width: 45%;
+      margin-bottom: 70px;
+      p {
+        color: $white_text;
+        font-size: 16px;
+        line-height: 32px;
+      }
+    }
+    .round-two {
+      content: url(./../img/bg\ round.png);
+      position: absolute;
+      top: -16px;
+      left: 311px;
+      z-index: -1;
+    }
+  }
+}

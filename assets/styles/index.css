@@ -256,4 +256,131 @@ img {
   position: absolute;
   top: 106px;
   left: 245px;
+}
+
+.section-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-two .container {
+  margin-top: -50px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section-two .container h2 {
+  color: hsla(0, 0%, 100%, 0.5);
+  line-height: 32px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 16px;
+}
+.section-two .container h3 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 56px;
+  font-weight: 300;
+  line-height: 64px;
+  margin-bottom: 16px;
+}
+.section-two .container .section-2-paragraph {
+  text-align: center;
+  width: 45%;
+  margin-bottom: 70px;
+}
+.section-two .container .section-2-paragraph p {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 16px;
+  line-height: 32px;
+}
+.section-two .container .round-two {
+  content: url(./../img/bg\ round.png);
+  position: absolute;
+  top: -16px;
+  left: 311px;
+  z-index: -1;
+}
+
+.section-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.section-three .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 113px;
+}
+.section-three .container .card p {
+  width: 80%;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Barlow Condensed";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+.section-three .container .card .date p {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 16px;
+  line-height: 32px;
+}
+.section-three .container .card .card-text {
+  padding-left: 32px;
+  padding-top: 38px;
+  height: 192px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  background: -webkit-gradient(linear, left top, left bottom, from(#4d4f95), to(#2b2d66));
+  background: linear-gradient(180deg, #4d4f95 0%, #2b2d66 100%);
+  -webkit-box-shadow: 0px 24px 48px 0px rgba(0, 1, 44, 0.16);
+          box-shadow: 0px 24px 48px 0px rgba(0, 1, 44, 0.16);
+}
+.section-three .container .card:nth-child(1) .card-img {
+  height: 240px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background: url(../img/image-1.png) center/cover;
+}
+.section-three .container .card:nth-child(2) .card-img {
+  height: 240px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background: url(../img/image-2.png) center/cover;
+}
+.section-three .container .card:nth-child(3) .card-img {
+  height: 240px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  background: url(../img/image-3.png) center/cover;
 }/*# sourceMappingURL=index.css.map */
