@@ -1,6 +1,4 @@
 .header {
-  @include flex_center;
-  justify-content: center;
   margin-top: 30px;
   .container {
     @include flex_center;
@@ -28,13 +26,15 @@
           color: $grey_title;
         }
       }
-      &::after {
-        content: url(../img/bg\ artistique.png);
-        position: absolute;
-        top: -206px;
-        left: -200px;
-        z-index: -1;
-      }
     }
+  }
+  .bg{
+    background: url(../img/bg\ artistique.png);
+    background-position: bottom left;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 625px;
+    width: 600px;
   }
 }
