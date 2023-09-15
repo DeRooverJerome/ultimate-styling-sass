@@ -74,6 +74,7 @@ img {
   right: 0;
   height: 625px;
   width: 600px;
+  z-index: -1;
 }
 
 .main .container {
@@ -655,10 +656,14 @@ img {
     gap: 30px;
     text-align: center;
   }
+  .main .container .title-container .round {
+    display: none;
+  }
   .main .container .title-container .started {
     margin-left: 20px;
   }
   .section .container {
+    overflow-y: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -669,11 +674,17 @@ img {
     gap: 0;
   }
   .section .container .left-side .img-container {
-    scale: 0.8;
+    scale: 0.7;
   }
   .section .container .right-side {
     text-align: center;
     margin: 0 40px;
+  }
+  .section .container .right-side .round {
+    display: none;
+  }
+  .section-two .container .round-two {
+    display: none;
   }
   .section-two .container h3 {
     text-align: center;

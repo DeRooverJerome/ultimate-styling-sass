@@ -87,6 +87,9 @@
         justify-content: center;
         gap: 30px;
         text-align: center;
+        .round {
+          display: none;
+        }
         .started {
           margin-left: 20px;
         }
@@ -96,23 +99,30 @@
   // -------- section-one -------------
   .section {
     .container {
+      overflow-y: hidden;
       display: flex;
       flex-direction: column;
       gap: 0;
       .left-side {
         .img-container {
-          scale: 0.8;
+          scale: 0.7;
         }
       }
       .right-side {
         text-align: center;
         margin: 0 40px;
+        .round {
+          display: none;
+        }
       }
     }
     // -------- section-two -----------
   }
   .section-two {
     .container {
+      .round-two {
+        display: none;
+      }
       h3 {
         text-align: center;
       }
@@ -159,3 +169,5 @@
     }
   }
 }
+
+// Enlever multiple round sur MQ
