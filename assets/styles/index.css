@@ -16,6 +16,12 @@ body {
 
 .container {
   width: 1200px;
+  margin: 0 auto;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 img {
@@ -82,15 +88,13 @@ img {
   z-index: -1;
 }
 
-.main {
+.main .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.main .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 164px;
 }
 .main .container .title-container {
@@ -639,10 +643,4 @@ img {
   .header .container ul.nav {
     width: 325px;
   }
-}
-.main {
-  width: 150%;
-}
-.main .container .text-container {
-  width: 50%;
 }/*# sourceMappingURL=index.css.map */
