@@ -558,4 +558,175 @@ img {
 .footer .container .terms p {
   color: hsl(0, 0%, 100%);
   cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .header .container .nav li a {
+    font-size: 25px;
+  }
+  .main .container .title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+  }
+  .main .container .title-container .started {
+    margin-left: 20px;
+  }
+  .section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0;
+  }
+  .section .container .right-side {
+    text-align: center;
+    margin: 0 40px;
+  }
+  .section-three .container {
+    margin: 0 40px;
+  }
+  .section-three .container .card p {
+    font-size: 18px;
+  }
+  .section-four .container {
+    margin: 40px 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header .container {
+    gap: 40px;
+  }
+  .header .container .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header .container .nav li a {
+    font-size: 25px;
+  }
+  .main .container .title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .main .container .title-container .started {
+    margin-left: 20px;
+  }
+  .section .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0;
+  }
+  .section .container .left-side .img-container {
+    scale: 0.8;
+  }
+  .section .container .right-side {
+    text-align: center;
+    margin: 0 40px;
+  }
+  .section-two .container h3 {
+    text-align: center;
+  }
+  .section-three .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-three .container .card p {
+    font-size: 18px;
+  }
+  .section-four .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .section-four .container .section-service {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer .container .copyright {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer .container .terms {
+    margin: 20px auto;
+  }
 }/*# sourceMappingURL=index.css.map */
